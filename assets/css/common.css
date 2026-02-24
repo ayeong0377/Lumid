@@ -1,0 +1,19 @@
+body {
+    color: var(--Font-Color);
+    font-family: 'Pretendard';
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}

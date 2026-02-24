@@ -1,0 +1,121 @@
+:root {
+    --main-color : #564970;
+    --Secondary-color : #584188;
+    --Tertiary-color : #EEEFF4;
+    --Font-Color : #1B1F33;
+    --white-color : #fff;
+    --gray-color : #9C9C9C;
+    --light-gray-color : #E6E6E6;
+    --point-color : #FB7395;
+}
+
+/* header */
+.header {
+    /* background-color: var(--main-color); */
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    /* top: 30px; */
+    /* left: auto; */
+    z-index: 99;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white-color);
+    margin-top: 25px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu:hover {
+    border-bottom: 1px solid var(--white-color);
+}
+
+.translation {
+    position: relative;
+}
+
+.trans-top {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.trans-down-list {
+    position: absolute;
+    display: none;
+    top: 30px;
+    /* transition: all 0.3s ease; */
+}
+
+.trans-option {
+    background-color: var(--Tertiary-color);
+    padding: 15px 30px 15px 14px;
+    border-radius: 10px;
+}
+
+.trans-option li a{
+    text-decoration: none;
+    color: var(--Font-Color);
+    font-size: 14px;
+    line-height: 2;
+}
+
+
+/* kv-sec */
+.kv-sec {
+    position: relative;
+    color: var(--white-color);
+    width: 100%;
+    height: 100vh;
+}
+
+.kv-sec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.kv-sec img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.kv-text {
+    width: 100%;
+    max-width: 1400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kv-title {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Paperozi';
+}
+
+.kv-sub {
+    font-size: 25px;
+    margin-top: 20px;
+}
