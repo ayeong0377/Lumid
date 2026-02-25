@@ -1,6 +1,6 @@
 :root {
-    --main-color : #564970;
-    --Secondary-color : #584188;
+    --main-color : #4A4167;
+    --Secondary-color : #868BC3;
     --Tertiary-color : #EEEFF4;
     --Font-Color : #1B1F33;
     --white-color : #fff;
@@ -107,6 +107,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-left: 16px;
 }
 
 .kv-title {
@@ -118,4 +119,157 @@
 .kv-sub {
     font-size: 25px;
     margin-top: 20px;
+}
+
+/* game-sec */
+.game-sec {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    position: relative;
+    /* max-width: 1400px; */
+}
+
+/* slide */
+.slider-track {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    max-width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.slide-wrap {
+    display: flex;
+    gap: 36px;
+}
+
+.keyword {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.keyword span {
+    color: var(--point-color);
+}
+
+.info-text {
+    margin: 10px 0 30px;
+}
+
+.info-text h2 {
+    font-family: 'Paperozi';
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.info-text p {
+    font-size: 20px;
+}
+
+.more-cta-wrap {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray-color);
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.more-cta-wrap a {
+    text-decoration: none;
+    display: block;
+}
+
+.store-icon {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    width: 24px;
+    height: 24px;
+}
+
+/* 좌우 네비 버튼 */
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 10;
+  background-color: #1B1F33;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+/* studio info sec */
+.studio-info-sec {
+    width: 100%;
+}
+
+.studio-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 172px;
+}
+
+.studio-info-text{
+    width: 40%;
+}
+
+.studio-info-text h2 {
+    font-family: 'Paperozi';
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.studio-info-text p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.studio-info-btn {
+    background-color: var(--white-color);
+    border: 1px solid var(--main-color);
+    padding: 10px 38px;
+    border-radius: 10px;
+    color: var(--main-color);
+}
+
+.studio-info-btn a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.studio-info-btn:hover {
+    background-color: var(--point-color);
+    border-color: var(--point-color);
+    color: var(--white-color);
+}
+
+.studio-info-img {
+    /* background-color: var(--Tertiary-color); */
+    width: 60%;
+}
+
+.studio-info-img img {
+    width: 100%;
 }
