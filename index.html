@@ -7,15 +7,20 @@
 
     <link rel="stylesheet" href="assets/css/reset.min.css">
     <link rel="stylesheet" href="assets/css/font.css">
+    
     <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 </head>
 <body>
     <!-- header -->
     <header class="header">
         <div class="container header-container">
             <h1 class="logo">
-                <img src="assets/images/Lumid-logo.svg" alt="루미드 로고">
+                <a href="/">
+                    <img src="assets/images/Lumid-logo.svg" alt="루미드 로고">
+                </a>
             </h1>
             <nav>
                 <div class="menu-list-wrap">
@@ -77,42 +82,45 @@
 
         <!-- game-sec -->
         <section class="game-sec">
-            <div class="slider">
-                <div class="slider-track">
+            <div class="swiper game-swiper">
+                <div class="swiper-wrapper">
                     <!-- slide1 -->
-                    <div class="slide">
+                    <div class="swiper-slide game-slide">
                         <div class="slide-wrap">
                             <div class="slide-img">
-                            <img src="assets/images/slide1.png" alt="slide1">
+                                <img src="assets/images/slide1.png" alt="slide1">
                             </div>
                             <div class="slide-text">
                                 <div class="keyword">
-                                <span>#시뮬레이션</span>
-                                <p>#캐주얼</p>
-                                <p>#육성</p>
+                                    <span>#시뮬레이션</span>
+                                    <p>#캐주얼</p>
+                                    <p>#육성</p>
+                                </div>
+                                <div class="info-text">
+                                    <h2>견습마녀 루루</h2>
+                                    <p>
+                                        견습마녀 루루의 마녀 선생님이 되어 루루를 정식마녀로
+                                        성장 시켜주세요! 30가지의 엔딩과 아름다운 100여개의
+                                        일러스트까지! 선생님, 준비는 되셨나요?
+                                    </p>
+                                </div>
+                                <div class="more-cta-wrap">
+                                    <a href="#">
+                                        자세히보기
+                                        <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 15L8 8L0.999999 1" stroke="#9C9C9C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="store-icon">
+                                    <img src="assets/images/playstore-icon.svg" alt="playstore">
+                                    <img src="assets/images/applestore-icon.svg" alt="applestore">
+                                </div>
                             </div>
-                            <div class="info-text">
-                                <h2>견습마녀 루루</h2>
-                                <p>
-                                    견습마녀 루루의 마녀 선생님이 되어 루루를 정식마녀로
-                                    성장 시켜주세요! 30가지의 엔딩과 아름다운 100여개의
-                                    일러스트까지! 선생님, 준비는 되셨나요?
-                                </p>
-                            </div>
-                            <div class="more-cta-wrap">
-                                <a href="#">
-                                    자세히보기  >
-                                </a>
-                            </div>
-                            <div class="store-icon">
-                                <img src="assets/images/playstore-icon.svg" alt="playstore">
-                                <img src="assets/images/applestore-icon.svg" alt="applestore">
-                            </div>
-                        </div>
                     </div>
 
                     <!-- slide2 -->
-                    <div class="slide">
+                    <div class="swiper-slide game-slide">
                         <div class="slide-wrap">
                             <div class="slide-img">
                             <img src="assets/images/slide1.png" alt="slide1">
@@ -132,7 +140,10 @@
                             </div>
                             <div class="more-cta-wrap">
                                 <a href="#">
-                                    자세히보기  >
+                                    자세히보기
+                                    <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 15L8 8L0.999999 1" stroke="#9C9C9C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </a>
                             </div>
                             <div class="store-icon">
@@ -143,7 +154,7 @@
                     </div>
 
                     <!-- slide3 -->
-                     <div class="slide">
+                    <div class="swiper-slide game-slide">
                         <div class="slide-wrap">
                             <div class="slide-img">
                             <img src="assets/images/slide1.png" alt="slide1">
@@ -161,8 +172,11 @@
                                 </p>
                             </div>
                             <div class="more-cta-wrap">
-                                <a href="#">
-                                    자세히보기  >
+                               <a href="#">
+                                    자세히보기
+                                    <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 15L8 8L0.999999 1" stroke="#9C9C9C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </a>
                             </div>
                             <div class="store-icon">
@@ -173,7 +187,7 @@
                     </div>
 
                     <!-- slide4 -->
-                     <div class="slide">
+                    <div class="swiper-slide game-slide">
                         <div class="slide-wrap">
                             <div class="slide-img">
                             <img src="assets/images/slide1.png" alt="slide1">
@@ -192,7 +206,10 @@
                             </div>
                             <div class="more-cta-wrap">
                                 <a href="#">
-                                    자세히보기  >
+                                    자세히보기
+                                    <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 15L8 8L0.999999 1" stroke="#9C9C9C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
                                 </a>
                             </div>
                             <div class="store-icon">
@@ -202,12 +219,10 @@
                         </div>
                     </div>
                 </div>
+                <!-- navgation -->
+                 <img class="prev" src="assets/images/prev-icon.svg" alt="이전">
+                 <img class="next" src="assets/images/next-icon.svg" alt="다음">
             </div>
-
-            <!-- navgation -->
-             <img class="prev" src="assets/images/prev-icon.svg" alt="이전">
-             <img class="next" src="assets/images/next-icon.svg" alt="다음">
-            
         </section>
 
         <section class="studio-info-sec container">
@@ -221,18 +236,164 @@
                         지친 하루를 보낸 당신에게 웃음을 전하고, <br>
                         오래 기억될 즐거운 게임을 만듭니다.
                     </p>
-                    <button class="studio-info-btn">
-                        <a href="#">스튜디오 소개  ></a>
+                    <button class="move-btn">
+                        <a href="#">스튜디오 소개
+                            <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 15L8 8L0.999999 1" stroke="#4A4167" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
                     </button>
                 </div>
                 <div class="studio-info-img">
-                    <img src="assets/images/임시이미지.jpg" alt="스튜디오 소개">
+                    <img src="assets/images/studio-info-img.png" alt="스튜디오 소개">
                 </div>
             </div>
         </section>
+
+        <!-- news sec -->
+         <section class="news-sec">
+            <div class="container">
+                <div class="news-text">
+                    <h2>
+                        새소식
+                    </h2>
+                    <p>
+                        루미드의 최신 뉴스와 공지사항을 가장 빠르게 만나보세요!
+                    </p>
+                    <button class="move-btn">
+                        <a href="#">새소식 더보기
+                            <svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 15L8 8L0.999999 1" stroke="#4A4167" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="swiper news-swiper">
+                <div class="swiper-wrapper news-wrap">
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news1.png" alt="">
+                        <div class="news-sub-text">
+                            <p class="date">2026.01.15</p>
+                            <h3>
+                                루미드 개발 노트 Vo.3
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news2.png" alt="">
+                        <div class="news-sub-text">
+                            <p>2026.01.08</p>
+                            <h3>
+                                루미드, “견습마녀 루루” 신년 이벤트 업데이트
+                            </h3>
+                         </div>
+                    </a>
+                </div>
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news3.png" alt="">
+                        <div class="news-sub-text">
+                            <p>2025.10.30</p>
+                            <h3>
+                                루미드, “출입금지구역” 그랜드 오픈
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news4.png" alt="">
+                        <div class="news-sub-text">
+                            <p>2025.10.10</p>
+                            <h3>
+                                강원도로 “루미드 캠프” 성공적으로 마무리
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news5.png" alt="">
+                        <div class="news-sub-text">
+                            <p>2025.09.15</p>
+                            <h3>
+                                루미드 대표 “홍길동”과 인터뷰
+                            </h3>
+                        </div> 
+                    </a>
+                </div>
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news1.png" alt="">
+                        <div class="news-sub-text">
+                            <p class="date">2026.01.15</p>
+                            <h3>
+                                루미드 개발 노트 Vo.3
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news2.png" alt="">
+                        <div class="news-sub-text">
+                            <p>2026.01.08</p>
+                            <h3>
+                                루미드, “견습마녀 루루” 신년 이벤트 업데이트
+                            </h3>
+                         </div>
+                    </a>
+                </div>
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news3.png" alt="">
+                        <div class="news-sub-text">
+                            <p>2025.10.30</p>
+                            <h3>
+                                루미드, “출입금지구역” 그랜드 오픈
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news4.png" alt="">
+                        <div class="news-sub-text">
+                            <p>2025.10.10</p>
+                            <h3>
+                                강원도로 “루미드 캠프” 성공적으로 마무리
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide news-slide">
+                    <a href="#">
+                        <img src="assets/images/news5.png" alt="">
+                        <div class="news-sub-text">
+                            <p>2025.09.15</p>
+                            <h3>
+                                루미드 대표 “홍길동”과 인터뷰
+                            </h3>
+                        </div> 
+                    </a>
+                </div>
+
+            </div>
+
+         </section>
     </main>
 
+    <footer class="footer"></footer>
+
     <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
     <script src="assets/js/script.js"></script>
 </body>
 </html>
