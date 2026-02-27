@@ -9,8 +9,9 @@ $(function(){
 
 // game-slide
 var gameSwiper = new Swiper(".game-swiper", {
-      slidesPerView: 1.7,
-      spaceBetween: 24,
+      slidesPerView: 1.4,
+      spaceBetween: 40,
+      loop: true,
       centeredSlides: true,
       observer: true,
       observeParents: true,
