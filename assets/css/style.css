@@ -329,3 +329,100 @@
     color: var(--white-color);
     padding: 20px 20px 86px;
 }
+
+/* career sec */
+.career-sec {
+    margin-top: 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+.career-sec > img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.carrer-text {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.carrer-text h2 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Paperozi';
+    color: var(--white-color);
+}
+
+.carrer-text p {
+    font-size: 25px;
+    color: var(--white-color);
+    font-weight: bold;
+    margin: 10px 0 40px;
+}
+
+.career-btn{
+    font-family: 'Paperozi';
+    display: flex;
+    width: 16%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--Tertiary-color);
+}
+
+.career-btn a {
+    display: block;
+}
+
+.career-btn:hover {
+    background-color: var(--Secondary-color);
+    color: var(--white-color);
+}
+
+.career-btn:hover path {
+    stroke: var(--white-color);
+}
+
+
+/* footer */
+.footer {
+    background-color: var(--Font-Color);
+    width: 100%;
+    padding: 40px 0;
+    color: var(--white-color);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.footer-logo {
+    align-self: center;
+}
+
+.footer-text {
+    line-height: 1.5;
+    flex: 1;
+}
+
+.footer-link {
+    display: flex;
+    gap: 10px;
+    text-decoration: underline;
+}
+
+.footer-sns {
+    display: flex;
+    align-self: self-end;
+    gap: 12px;
+}
