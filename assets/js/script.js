@@ -4,13 +4,24 @@ $(function(){
     // menu
     $('.trans-top').on('click', function(){
         $('.trans-down-list').stop().slideToggle();
+    });
+
+    let menuScroll = 650;
+    $(Window).scroll(function(){
+        let num = $(window).scrollTop();
+
+        if(num > menuScroll){
+            $('.header').css("background-color", "#1b1f338c")
+        } else {
+            $('.header').css("background-color", "")
+        }
     })
 })
 
 // game-slide
 var gameSwiper = new Swiper(".game-swiper", {
       slidesPerView: 1.4,
-      spaceBetween: 40,
+      spaceBetween: 20,
       loop: true,
       centeredSlides: true,
       observer: true,

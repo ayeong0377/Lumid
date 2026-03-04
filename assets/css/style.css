@@ -148,7 +148,7 @@
 }
 
 .slide-img {
-    /* width: 60%; */
+    /* width: 928px; */
     width: 65%;
     overflow: hidden;
     border-radius: 20px;
@@ -222,18 +222,18 @@
   cursor: pointer;
   z-index: 11;
   /* background-color: var(--Tertiary-color); */
-  border-radius: 50%
+  /* border-radius: 50% */
 }
 
 .prev {
   left: 120px;
-  background-color: #EEEFF480;
+  /* background-color: #EEEFF480; */
   padding: 15px;
 }
 
 .next {
   right: 120px;
-  background-color: #EEEFF480;
+  /* background-color: #EEEFF480; */
   padding: 15px;
 }
 
