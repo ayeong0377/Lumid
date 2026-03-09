@@ -16,6 +16,14 @@ $(function(){
             $('.header').css("background-color", "")
         }
     })
+
+    // mo-menu
+    $('.menu-btn').on('click', function(){
+        $('.mo-nav').addClass('is-open')
+    });
+    $('.close-btn').on('click', function(){
+        $('.mo-nav').removeClass('is-open')
+    });
 })
 
 // game-slide
