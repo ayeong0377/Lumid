@@ -1,3 +1,67 @@
+@media(max-width: 1280px){
+    /* kv */
+    .kv-title {
+        font-size: 60px;
+    }
+
+    /* game sec */
+    .info-text h2 {
+        font-size: 40px;
+    }
+
+    .info-text p {
+        font-size: 18px;
+    }
+
+    .more-cta-wrap {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .store-icon {
+        margin-top: 30px;
+    }
+
+    /* studio info */
+    .studio-info {
+        gap: 50px;
+    }
+
+    /* carrer sec */
+    .carrer-text h2 {
+        font-size: 60px;
+    }
+
+    .carrer-text p {
+        font-size: 20px;
+    }
+
+    .career-btn {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1024px){
+    /* game sec */
+     .prev {
+        left: 3%;
+    }
+
+    .next {
+        right: 38%;
+    }
+
+    /* studio info */
+    .studio-info-text h2 {
+        font-size: 40px;
+    }
+
+    .studio-info-text p {
+        font-size: 20px;
+    }
+}
+
+
 @media(max-width:768px) {
     .header-pc {
     display: none;
@@ -6,5 +70,8 @@
     .header-mo {
         display: block;
     }
-    
+}
+
+@media(max-width: 540px){
+
 }

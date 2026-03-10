@@ -6,7 +6,7 @@ $(function(){
         $('.trans-down-list').stop().slideToggle();
     });
 
-    let menuScroll = 650;
+    let menuScroll = 750;
     $(Window).scroll(function(){
         let num = $(window).scrollTop();
 
@@ -26,19 +26,31 @@ $(function(){
     });
 })
 
+
 // game-slide
 var gameSwiper = new Swiper(".game-swiper", {
-      slidesPerView: 1.4,
-      spaceBetween: 20,
+      slidesPerView: 1,
+      spaceBetween: 80,
       loop: true,
       centeredSlides: true,
+
       observer: true,
       observeParents: true,
       navigation: {
-      nextEl: ".next",
-      prevEl: ".prev",
-  },
+        nextEl: ".next",
+        prevEl: ".prev",
+      },
+      breakpoints: {
+        1025: {
+          slidesPerView: 1.3,
+          spaceBetween: 80,
+        },
+      },
 });
+
+window.addEventListener("load", function () {
+      gameSwiper.update();
+    });
 
 // news slide
  var newsSwiper = new Swiper(".news-swiper", {
