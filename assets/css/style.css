@@ -29,7 +29,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-left: 16px;
+    padding: 0 20px;
 }
 
 .kv-title {
@@ -120,15 +120,15 @@
 .more-cta-wrap {
     display: flex;
     align-items: center;
+    gap: 10px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--gray-color);
     padding-bottom: 50px;
     border-bottom: 1px solid var(--gray-color);
 }
 
 .more-cta-wrap a {
-    text-decoration: none;
     display: block;
 }
 
@@ -149,16 +149,19 @@
   height: 40px;
   cursor: pointer;
   z-index: 11;
-  /* background-color: var(--Tertiary-color); */
-  /* border-radius: 50% */
+  border: 1px solid var(--Secondary-color);
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
 }
 
 .prev {
   left: 8%;
+  padding: 6px;
 }
 
 .next {
   right: 8%;
+  padding: 6px;
 }
 
 
@@ -228,7 +231,7 @@
 }
 
 .news-wrap {
-    height: 430px;
+    /* height: 430px; */
     transition-timing-function: linear !important;
 }
 
@@ -260,18 +263,22 @@
     font-size: 25px;
     font-weight: bold;
     color: var(--white-color);
-    padding: 20px 20px 86px;
+    padding: 0px 20px 86px;
 }
 
 /* career sec */
 .career-sec {
+    width: 100%;
+    height: 593px;
     margin-top: 150px;
     position: relative;
     overflow: hidden;
+    /* background-image: url(../images/career_bg1.png); */
 }
 
-.career-sec > img {
+.career-sec img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
     display: block;
 }
@@ -288,6 +295,7 @@
     font-weight: bold;
     font-family: 'Paperozi';
     color: var(--white-color);
+    margin-bottom: 10px;
 }
 
 .carrer-text p {
@@ -297,7 +305,7 @@
     margin: 10px 0 40px;
 }
 
-.career-btn{
+.career-btn {
     font-family: 'Paperozi';
     display: flex;
     width: 16%;
@@ -306,7 +314,7 @@
     padding: 10px;
     border: 1px solid var(--Tertiary-color);
     border-radius: 100px;
-    background-color: transparent;
+    background-color: rgba(128, 128, 128, 0.2);
     align-items: center;
     justify-content: center;
     gap: 10px;

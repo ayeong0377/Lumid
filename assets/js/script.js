@@ -62,11 +62,11 @@ window.addEventListener("load", function () {
        breakpoints: {
         767: {
           slidesPerView: 2.5,
-          spaceBetween: 40,
+          spaceBetween: 30,
         },
-        1024: {
+        1025: {
           slidesPerView: 4,
-          spaceBetween: 50,
+          spaceBetween: 40,
         },
       },
         autoplay: {
