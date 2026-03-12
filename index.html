@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/breakpoint.css">
     <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <!-- header -->
@@ -33,8 +35,8 @@
                             <li class="menu">
                                 <a href="#">게임소개</a>
                             </li>
-                            <li class="menu">
-                                <a href="#">새소식</a>
+                            <li class="menu news-menu">
+                                <a href="./news.html">새소식</a>
                             </li>
                             <li class="menu">
                                 <a href="#">채용</a>
@@ -104,7 +106,7 @@
                                     <a href="#">게임소개</a>
                                 </li>
                                 <li class="menu">
-                                    <a href="#">새소식</a>
+                                    <a href="./news.html">새소식</a>
                                 </li>
                                 <li class="menu">
                                     <a href="#">채용</a>
@@ -120,14 +122,16 @@
     <main>
         <!-- kv-sec -->
         <section class="kv-sec">
-            <img src="assets/images/kv-bg.png" alt="임시사진">
+            <img src="assets/images/kv-bg.png" alt="kv-img">
             <div class="kv-text">
-                <h2 class="kv-title">
+                <h2 class="kv-title" data-aos="fade-up"
+     data-aos-duration="1500">
                     일상을 <br>
                     특별하게 <br>
                     만들다
                 </h2>
-                <p class="kv-sub">
+                <p class="kv-sub" data-aos="fade-up"
+     data-aos-duration="1500">
                     평범한 순간을, 특별한 경험으로
                 </p>
             </div>
@@ -135,8 +139,10 @@
 
         <!-- game-sec -->
         <section class="game-sec">
-            <h2 class="game-title container">게임</h2>
-            <div class="swiper game-swiper">
+            <h2 class="game-title container" data-aos="fade-up"
+     data-aos-duration="1500">게임</h2>
+            <div class="swiper game-swiper" data-aos="fade-up"
+     data-aos-duration="1500">
                 <div class="swiper-wrapper">
                     <!-- slide1 -->
                     <div class="swiper-slide game-slide">
@@ -354,7 +360,8 @@
 
         <section class="studio-info-sec container">
             <div class="studio-info">
-                <div class="studio-info-text">
+                <div class="studio-info-text" data-aos="fade-up"
+     data-aos-duration="1500">
                     <h2>
                         당신의 하루에 마법을 <br>
                         걸어드립니다
@@ -371,7 +378,8 @@
                         </a>
                     </button>
                 </div>
-                <div class="studio-info-img">
+                <div class="studio-info-img" data-aos="fade-up"
+     data-aos-duration="1500">
                     <img src="assets/images/studio-info-img.png" alt="스튜디오 소개">
                 </div>
             </div>
@@ -380,7 +388,8 @@
         <!-- news sec -->
          <section class="news-sec">
             <div class="container">
-                <div class="news-text">
+                <div class="news-text" data-aos="fade-up"
+     data-aos-duration="1500">
                     <h2>
                         새소식
                     </h2>
@@ -515,12 +524,17 @@
           <section class="career-sec">
             <img src="./assets/images/career_bg1.png" alt="career-bg1">
             <div class="container carrer-text">
-                <h2>
+                <h2 data-aos="fade-up"
+     data-aos-duration="1500">
                     Make It <br>
                     Dream!
                 </h2>
-                <p>함께 꿈을 만들어갈 당신을 기다립니다.</p>
-                <button class="career-btn">
+                <p data-aos="fade-up"
+                data-aos-duration="1500">
+                    함께 꿈을 만들어갈 당신을 기다립니다.
+                </p>
+                <button class="career-btn" data-aos="fade-up"
+                data-aos-duration="1500">
                     <a href="#">채용 공고 보기</a>
                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 17L17 1" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -561,10 +575,12 @@
     </footer>
 
     <script src="assets/js/jquery.min.js"></script>
-
     <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-
     <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

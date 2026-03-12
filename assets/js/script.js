@@ -96,3 +96,4 @@ window.addEventListener("load", function () {
         newsSwiper.autoplay.start();
         return false;
     });
+

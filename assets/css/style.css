@@ -276,6 +276,17 @@
     /* background-image: url(../images/career_bg1.png); */
 }
 
+.career-sec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
 .career-sec img {
     width: 100%;
     height: 100%;

@@ -125,9 +125,13 @@ a {
     background-color: transparent;
     border: 0;
     width: 30px;
-    height: 24px;
     position: relative;
     /* margin-right: 20px; */
+}
+
+.menu-btn img {
+    width: 100%;
+    object-fit: cover;
 }
 
 .mo-nav {
@@ -239,19 +243,70 @@ a {
 .footer-text {
     line-height: 1.5;
     flex: 1;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .footer-link {
     display: flex;
     gap: 10px;
     text-decoration: underline;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 10px;
 }
 
 .footer-sns {
     display: flex;
-    align-self: self-end;
+    align-self: flex-end;
     gap: 12px;
+}
+
+
+/* breakpoint */
+@media(max-width:768px) {
+    /* header */
+    .header-pc {
+    display: none;
+    }
+
+    .header-mo {
+        display: block;
+    }
+}
+
+@media(max-width:540px){
+    /* footer */
+    .footer-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-logo {
+        align-self: flex-start;
+    }
+
+    .footer-sns {
+        align-self: flex-start;
+    }
+}
+
+@media(max-width:414px){
+    .move-btn {
+        padding: 10px 20px;
+    }
+
+    .move-btn a {
+        font-size: 15px;
+    }
+
+    .move-btn svg {
+        width: 7px;
+        height: 12px;
+    }
+
+    /* footer */
+    .footer-text {
+        font-size: 15px;
+    }
+
+
 }
