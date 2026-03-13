@@ -62,7 +62,8 @@ a {
 }
 
 .menu:hover {
-    border-bottom: 2px solid var(--white-color);
+    /* border-bottom: 2px solid var(--white-color); */
+    text-decoration: underline;
 }
 
 .translation {

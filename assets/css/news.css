@@ -1,6 +1,6 @@
 /* header */
 .news-menu > a {
-    border-bottom: 1px solid var(--white-color);
+    text-decoration: underline;
 }
 
 /* kv */
@@ -46,4 +46,131 @@
 .kv-sub {
     font-size: 25px;
     margin-top: 20px;
+}
+
+/* news sec*/
+.news-sec {
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.news-sec h2 {
+    font-family: 'Paperozi';
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+/* tab */
+.Kategorie-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.kategorie-list {
+    display: flex;
+    gap: 16px;
+}
+
+.kategorie-list li {
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--Secondary-color);
+    border: 1px solid var(--Secondary-color);
+    padding: 14px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.kategorie.tab-on {
+    background-color: var(--Secondary-color);
+    color: var(--white-color);
+}
+
+.time-tab-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.time-tab.time-on {
+    color: var(--Font-Color);
+    font-weight: 600;
+}
+
+.time-tab {
+    color: var(--gray-color);
+}
+
+
+.time-deco {
+    width: 5px;
+    height: 5px;
+    background-color: var(--gray-color);
+    border-radius: 50%;
+}
+
+/* news */
+.news-sec {
+    padding-left: 20px;
+}
+
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.news {
+    display: flex;
+    gap: 16px;
+}
+
+.news img {
+    width: 45%;
+    object-fit: cover;
+}
+
+.news-text h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.news-desc {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 30px;
+}
+
+.date {
+    font-size: 15px;
+    color: var(--gray-color);
+}
+
+.news-more-btn-wrap {
+    width: 18%;
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    padding: 25px 20px;
+    margin-top: 80px;
+    border-radius: 15px;
+}
+
+.news-more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
