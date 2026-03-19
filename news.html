@@ -131,99 +131,123 @@
             <div class="news-tab-wrap">
                 <div class="Kategorie-wrap">
                     <ul class="kategorie-list">
-                        <li class="kategorie tab-on">
+                        <li class="tab-on" data-type="all">
                             전체
                         </li>
-                        <li class="kategorie">
+                        <li data-type="news">
                             뉴스
                         </li>
-                        <li class="kategorie">
+                        <li data-type="notice">
                             공지사항
                         </li>
-                        <li class="kategorie">
+                        <li data-type="event">
                             이벤트
                         </li>
                     </ul>
                     <div class="time-tab-list">
-                        <p class="time-tab time-on">
+                        <p class="time-on">
                             최신순
                         </p>
                         <div class="time-deco"></div>
-                        <p class="time-tab">
+                        <p>
                             오래된순
                         </p>
                     </div>
                 </div>
             </div>
             <div class="news-wrap">
-                <div class="news-list">
-                    <a href="#" class="news">
-                        <img src="./assets/images/news1.png" alt="뉴스 썸네일">
-                        <div class="news-text">
-                            <h3>루미드 개발 노트 Vo.3</h3>
-                            <p class="news-desc">
-                                안녕하세요, 루미드 운영진입니다. <br>
-                                이번 개발노트에서는 작년 10월에 오픈한 [출입금지구역]에 대한 개발비화를 얘기 해보려합니다. [출입금지구역]은 미스테리를 사랑하는 개발진들이 모여 만들어졌습니다.
-                            </p>
-                            <p class="date">2026.01.15</p>
-                        </div>
-                    </a>
-                    <a href="#" class="news">
-                        <img src="./assets/images/news2.png" alt="뉴스 썸네일">
-                        <div class="news-text">
-                            <h3>루미드, “견습마녀 루루” 신년 이벤트 업데이트</h3>
-                            <p class="news-desc">
-                                게임 개발사 루미드는 자사의 게임 "견습마녀 루루"에 신년을 맞아 특별 이벤트 업데이트를 진행했다고 밝혔다. <br>
-                                이번 업데이트에서는 기간 한정으로 즐길 수 있는 이벤트 스토리 콘텐츠가 추가됐다. 플레이어는 새롭게 공개된 이야기를 통해 견습마녀 루루와 함께 신년을 맞이하는 특별한 에피소드를 경험할 수 있다.
-                            </p>
-                            <p class="date">2026.01.07</p>
-                        </div>
-                    </a>
-                    <a href="#" class="news">
-                        <img src="./assets/images/news3.png" alt="뉴스 썸네일">
-                        <div class="news-text">
-                            <h3>루미드, “출입금지구역” 그랜드 오픈</h3>
-                            <p class="news-desc">
-                                게임 개발사 루미드는 신작 게임 "출입금지구역"을 정식 오픈했다고 밝혔다.
-                                <br>
-                                ‘출입금지구역’은 추리와 퍼즐 요소를 결합한 미스터리 장르의 게임으로, 플레이어는 어느 날 의문의 초대장을 받고 한 장소에 도착하면서 이야기를 시작하게 된다.
-                            </p>
-                            <p class="date">2025.10.30</p>
-                        </div>
-                    </a>
-                    <a href="#" class="news">
-                        <img src="./assets/images/news4.png" alt="뉴스 썸네일">
-                        <div class="news-text">
-                            <h3>강원도로 “루미드 캠프” 성공적으로 마무리</h3>
-                            <p class="news-desc">
-                                게임 개발사 루미드는 최근 강원도에서 사내 워크숍 프로그램인 "루미드 캠프"를 진행하고 일정을 성공적으로 마무리했다고 밝혔다.
-                                <br>
-                                이번 ‘루미드 캠프’는 직원들이 한자리에 모여 회사의 향후 방향과 현재 진행 중인 프로젝트 현황을 공유하고 의견을 나누기 위해 마련된 자리다.
-                            </p>
-                            <p class="date">2025.10.10</p>
-                        </div>
-                    </a>
-                    <a href="#" class="news">
-                        <img src="./assets/images/news5.png" alt="뉴스 썸네일">
-                        <div class="news-text">
-                            <h3>루미드 대표 “홍길동”과 인터뷰</h3>
-                            <p class="news-desc">
-                                게임 개발사 루미드의 대표 홍길동이 최근 인터뷰를 통해 회사의 비전과 앞으로의 목표에 대해 밝혔다.
-                                <br>
-                                홍길동 대표는 인터뷰에서 루미드가 추구하는 방향에 대해 “새로운 도전을 두려워하지 않고 끊임없이 시도하며 성장해 나가는 것이 가장 큰 목표”라고 전했다.
-                            </p>
-                            <p class="date">2025.09.15</p>
-                        </div>
-                    </a>
+                <ul class="news-list">
+                    <li class="news-all notice">
+                        <a href="#">
+                            <img src="./assets/images/news1.png" alt="뉴스 썸네일">
+                            <div class="news-text">
+                                <h3>루미드 개발 노트 Vo.3</h3>
+                                <p class="news-desc">
+                                    안녕하세요, 루미드 운영진입니다. <br>
+                                    이번 개발노트에서는 작년 10월에 오픈한 [출입금지구역]에 대한 개발비화를 얘기 해보려합니다. [출입금지구역]은 미스테리를 사랑하는 개발진들이 모여 만들어졌습니다.
+                                </p>
+                                <p class="date" data-date="2026.01.15">
+                                    2026.01.15
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news-all notice">
+                        <a href="#" class="news-all notice">
+                            <img src="./assets/images/news2.png" alt="뉴스 썸네일">
+                            <div class="news-text">
+                                <h3>루미드, “견습마녀 루루” 신년 이벤트 업데이트</h3>
+                                <p class="news-desc">
+                                    게임 개발사 루미드는 자사의 게임 "견습마녀 루루"에 신년을 맞아 특별 이벤트 업데이트를 진행했다고 밝혔다. <br>
+                                    이번 업데이트에서는 기간 한정으로 즐길 수 있는 이벤트 스토리 콘텐츠가 추가됐다. 플레이어는 새롭게 공개된 이야기를 통해 견습마녀 루루와 함께 신년을 맞이하는 특별한 에피소드를 경험할 수 있다.
+                                </p>
+                                <p class="date" data-date="2026.01.07">
+                                    2026.01.07
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news-all news">
+                        <a href="#" class="news-all news">
+                            <img src="./assets/images/news3.png" alt="뉴스 썸네일">
+                            <div class="news-text">
+                                <h3>루미드, “출입금지구역” 그랜드 오픈</h3>
+                                <p class="news-desc">
+                                    게임 개발사 루미드는 신작 게임 "출입금지구역"을 정식 오픈했다고 밝혔다.
+                                    <br>
+                                    ‘출입금지구역’은 추리와 퍼즐 요소를 결합한 미스터리 장르의 게임으로, 플레이어는 어느 날 의문의 초대장을 받고 한 장소에 도착하면서 이야기를 시작하게 된다.
+                                </p>
+                                <p class="date" data-date="2025.10.30">
+                                    2025.10.30
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news-all news">
+                        <a href="#" class="news">
+                            <img src="./assets/images/news4.png" alt="뉴스 썸네일">
+                            <div class="news-text">
+                                <h3>강원도로 “루미드 캠프” 성공적으로 마무리</h3>
+                                <p class="news-desc">
+                                    게임 개발사 루미드는 최근 강원도에서 사내 워크숍 프로그램인 "루미드 캠프"를 진행하고 일정을 성공적으로 마무리했다고 밝혔다.
+                                    <br>
+                                    이번 ‘루미드 캠프’는 직원들이 한자리에 모여 회사의 향후 방향과 현재 진행 중인 프로젝트 현황을 공유하고 의견을 나누기 위해 마련된 자리다.
+                                </p>
+                                <p class="date"
+                                data-date="2025.10.10">
+                                    2025.10.10
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="news-all news">
+                        <a href="#" class="news">
+                            <img src="./assets/images/news5.png" alt="뉴스 썸네일">
+                            <div class="news-text">
+                                <h3>루미드 대표 “홍길동”과 인터뷰</h3>
+                                <p class="news-desc">
+                                    게임 개발사 루미드의 대표 홍길동이 최근 인터뷰를 통해 회사의 비전과 앞으로의 목표에 대해 밝혔다.
+                                    <br>
+                                    홍길동 대표는 인터뷰에서 루미드가 추구하는 방향에 대해 “새로운 도전을 두려워하지 않고 끊임없이 시도하며 성장해 나가는 것이 가장 큰 목표”라고 전했다.
+                                </p>
+                                <p class="date" data-date="2025-09-15">
+                                    2025.09.15
+                                </p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="event">
+                        <p>선택한 조건에 맞는 소식이 아직 없습니다.</p>
+                    </li>
+                </ul>
+                <div class="news-btn-wrap">
+                    <button class="news-more-btn">
+                            더보기
+                            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L8 8L15 1" stroke="#4A4167" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </button>
                 </div>
-                <button class="news-more-btn-wrap">
-                    <div class="news-more-btn">
-                        더보기
-                        <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 1L8 8L15 1" stroke="#4A4167" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </div>
-                </button>
                 
             </div>
         </section>
@@ -259,6 +283,7 @@
 
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/news.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

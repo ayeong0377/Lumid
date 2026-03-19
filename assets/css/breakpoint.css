@@ -88,9 +88,9 @@
     }
 
     /* carrer */
-    .career-sec img {
+    /* .career-sec img {
         object-position: 70% center;
-    }
+    } */
 
     .carrer-text h2 {
         font-size: 50px;
@@ -161,9 +161,9 @@
     }
 
     /* carrer */
-    .career-sec img {
+    /* .career-sec img {
         object-position: 75% center;
-    }
+    } */
 
     .career-btn {
         width: 30%;
@@ -172,9 +172,9 @@
 
 @media(max-width: 540px){
     /* carrer */
-    .career-sec img {
+    /* .career-sec img {
         object-position: 75% center;
-    }
+    } */
     
     .career-btn {
         width: 40%;
@@ -277,9 +277,9 @@
     }
 
     /* carrer sec */
-    .career-sec img {
+    /* .career-sec img {
         object-position: 72% center;
-    }
+    } */
 
     .carrer-text h2 {
         font-size: 45px;
