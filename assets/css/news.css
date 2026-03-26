@@ -97,7 +97,11 @@
     font-size: 20px;
 }
 
-.time-tab-list p.time-on {
+.time-tab-list li {
+    cursor: pointer;
+}
+
+.time-tab-list li.time-on {
     color: var(--Font-Color);
     font-weight: 600;
 }
@@ -156,10 +160,10 @@
     color: var(--gray-color);
 }
 
-.event {
+.no-data {
     color: var(--gray-color);
     font-size: 35px;
-    margin: 0 auto;
+    text-align: center;
     padding: 150px 0;
     display: none;
 }

@@ -1,32 +1,5 @@
 // alert('이 홈페이지는 포트폴리오 용도로 제작되었습니다.');
 
-$(function(){
-    // menu
-    $('.trans-top').on('click', function(){
-        $('.trans-down-list').stop().slideToggle();
-    });
-
-    let menuScroll = 750;
-    $(Window).scroll(function(){
-        let num = $(window).scrollTop();
-
-        if(num > menuScroll){
-            $('.header').css("background-color", "#1b1f338c")
-        } else {
-            $('.header').css("background-color", "")
-        }
-    })
-
-    // mo-menu
-    $('.menu-btn').on('click', function(){
-        $('.mo-nav').addClass('is-open')
-    });
-    $('.close-btn').on('click', function(){
-        $('.mo-nav').removeClass('is-open')
-    });
-})
-
-
 // game-slide
 var gameSwiper = new Swiper(".game-swiper", {
       slidesPerView: 1,
