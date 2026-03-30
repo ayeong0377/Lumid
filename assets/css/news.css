@@ -99,6 +99,7 @@
 
 .time-tab-list li {
     cursor: pointer;
+    color: var(--gray-color);
 }
 
 .time-tab-list li.time-on {
@@ -120,7 +121,7 @@
 
 /* news */
 .news-sec {
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .news-list {
