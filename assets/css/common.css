@@ -34,6 +34,22 @@ a {
     --point-color : #FB7395;
 }
 
+.sec-pd {
+    padding: 150px 20px;
+}
+
+.title01 {
+    font-family: 'Paperozi';
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.title02 {
+    font-family: 'Paperozi';
+    font-size: 50px;
+    font-weight: bold;
+}
+
 
 /* header */
 .header {
@@ -271,6 +287,10 @@ a {
 
     .header-mo {
         display: block;
+    }
+
+    .sec-pd {
+        padding: 80px 16px;
     }
 }
 
