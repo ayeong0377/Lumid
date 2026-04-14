@@ -5,7 +5,7 @@ $(function(){
     });
 
     let menuScroll = 750;
-    $(Window).scroll(function(){
+    $(window).scroll(function(){
         let num = $(window).scrollTop();
 
         if(num > menuScroll){
