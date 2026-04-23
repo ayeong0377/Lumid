@@ -5,6 +5,7 @@
 body {
     color: var(--Font-Color);
     font-family: 'Pretendard';
+    position: relative;
 }
 
 li {
@@ -15,6 +16,12 @@ a {
     color: inherit;
     display: block;
     text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
 }
 
 .container {
@@ -77,9 +84,24 @@ a {
     font-size: 20px;
 }
 
-.menu:hover {
-    /* border-bottom: 2px solid var(--white-color); */
-    text-decoration: underline;
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 23px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.menu:hover::after{
+    width: 100%;
 }
 
 .translation {
@@ -210,6 +232,42 @@ a {
     margin-bottom: 0;
 }
 
+.header-popup {
+    width: 400px;
+    height: 200px;
+    background-color: var(--white-color);
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    border-radius: 10px;
+    border: 1px solid var(--Tertiary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    display: none;
+}
+
+.notice-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--gray-color);
+    padding-top: 25px;
+}
+
+.notice-wrap p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-popup > p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 45px;
+}
+
 /* btn */
 .move-btn {
     display: flex;
@@ -291,6 +349,11 @@ a {
 
     .sec-pd {
         padding: 80px 16px;
+    }
+
+    /* popup */
+    .header-popup {
+        top: 18%;
     }
 }
 

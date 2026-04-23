@@ -1,5 +1,11 @@
-.studio {
-    text-decoration: underline;
+.studio::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 23px;
+    left: 0;
 }
 
 /* kv-sec */

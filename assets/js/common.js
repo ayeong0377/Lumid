@@ -22,4 +22,12 @@ $(function(){
     $('.close-btn').on('click', function(){
         $('.mo-nav').removeClass('is-open')
     });
+
+    // popup
+    $('.trans-option li, .translation-mo > a').on('click', function(){
+        $('.header-popup').show();
+    })
+    $('.popup-close').on('click', function(){
+        $('.header-popup').hide();
+    })
 })
