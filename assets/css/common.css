@@ -64,9 +64,8 @@ button {
     width: 100%;
     height: 90px;
     position: fixed;
-    /* top: 30px; */
-    /* left: auto; */
     z-index: 99;
+    overflow-x: hidden;
 }
 
 .header-container {
@@ -85,8 +84,10 @@ button {
 }
 
 .menu {
+    width: auto;
     position: relative;
     display: inline-block;
+    align-self: stretch;
 }
 
 .menu::after {
@@ -121,7 +122,6 @@ button {
     position: absolute;
     display: none;
     top: 30px;
-    /* transition: all 0.3s ease; */
 }
 
 .trans-option {
@@ -163,14 +163,7 @@ button {
 .menu-btn {
     background-color: transparent;
     border: 0;
-    width: 30px;
     position: relative;
-    /* margin-right: 20px; */
-}
-
-.menu-btn img {
-    width: 100%;
-    object-fit: cover;
 }
 
 .mo-nav {
@@ -181,7 +174,6 @@ button {
 .close-btn {
     background-color: transparent;
     border: 0;
-    /* margin-right: 15px; */
 }
 
 .mo-nav {
@@ -221,15 +213,16 @@ button {
     margin-top: 50px;
 }
 
+.menu-list-mo {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .menu-list-mo li {
     font-weight: bold;
     font-size: 25px;
-    margin-bottom: 40px;
     display: block;
-}
-
-.menu-list-mo li:last-child {
-    margin-bottom: 0;
 }
 
 .header-popup {

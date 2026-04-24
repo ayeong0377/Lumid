@@ -1,6 +1,12 @@
 /* header */
-.news-menu > a {
-    text-decoration: underline;
+.news-menu::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 23px;
+    left: 0;
 }
 
 /* kv */
