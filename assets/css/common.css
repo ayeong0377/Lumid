@@ -57,15 +57,17 @@ button {
     font-weight: bold;
 }
 
+.pc-none {
+    display: none;
+}
 
 /* header */
 .header {
-    /* background-color: var(--main-color); */
     width: 100%;
     height: 90px;
     position: fixed;
-    z-index: 99;
-    overflow-x: hidden;
+    z-index: 100;
+    overflow: visible;
 }
 
 .header-container {
@@ -122,12 +124,15 @@ button {
     position: absolute;
     display: none;
     top: 30px;
+    left: 0;
+    z-index: 120;
 }
 
 .trans-option {
     background-color: var(--Tertiary-color);
     padding: 15px 30px 15px 14px;
     border-radius: 10px;
+    overflow: visible;
 }
 
 .trans-option li a{
@@ -229,8 +234,8 @@ button {
     width: 400px;
     height: 200px;
     background-color: var(--white-color);
-    position: absolute;
-    top: 20%;
+    position: fixed;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000;
@@ -288,6 +293,23 @@ button {
 
 .move-btn:hover path {
     stroke : var(--white-color);
+}
+
+.career-btn {
+    display: block;
+    width: 228px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid var(--Secondary-color);
+    border-radius: 100px;
+    padding: 18px 20px;
+    color: var(--Secondary-color);
+}
+
+.career-btn:hover {
+    color: var(--white-color);
+    background-color: var(--main-color);
+    border-color: var(--main-color);
 }
 
 /* footer */
@@ -351,6 +373,10 @@ button {
 }
 
 @media(max-width:540px){
+    .pc-none {
+        display: block;
+    }
+
     /* footer */
     .footer-container {
         flex-direction: column;

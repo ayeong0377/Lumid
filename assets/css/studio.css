@@ -106,7 +106,7 @@
 }
 
 /* banner */
-.banner {
+.banner-sec {
     width: 100%;
     background-image: url(../images/studio-banner.png);
     background-position: center;
@@ -117,6 +117,7 @@
 
 .banner-text h2 {
     margin-bottom: 50px;
+    line-height: 1.6;
 }
 
 .banner-text h2 span {
@@ -130,4 +131,72 @@
 
 .banner-text span {
     font-weight: bold;
+}
+
+/* process */
+.process-text {
+    text-align: center;
+}
+
+.process-text h2 {
+    margin-bottom: 20px;
+}
+
+.process-text h2 span {
+    color: var(--Secondary-color);
+}
+
+.process-text p {
+    font-size: 25px;
+}
+
+.process-card-list {
+    display: flex;
+    gap: 16px;
+    margin-top: 80px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-card {
+    width: calc((100% - 32px) / 3);
+    height: 432px;
+    padding: 50px 20px;
+    border: 1px solid var(--Secondary-color);
+    border-radius: 30px 0 30px 0;
+}
+
+.process-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.process-card h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.process-card p {
+    font-size: 20px;
+}
+
+/* career sec */
+.career-sec .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.career-text h2 {
+    margin-bottom: 20px;
+}
+
+.career-text p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 80px;
 }
