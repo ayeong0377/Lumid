@@ -1,10 +1,16 @@
 @media(max-width:1280px) {
+    /* kv */
     .kv-title {
         font-size: 60px;
     }
 }
 
 @media(max-width:1024px) {
+    /* kv */
+    .kv-title {
+        font-size: 50px;
+    }
+
     /* studio */
     .studio-sec {
         flex-direction: column;
@@ -15,11 +21,24 @@
         width: 100%;
     }
 
+    .studio-text h2 {
+        font-size: 45px;
+    }
+
     .studio-img-wrap {
         width: 100%;
     }
 
+    /* banner */
+    .banner-text h2 {
+        font-size: 45px;
+    }
+
     /* process */
+    .process-text h2 {
+        font-size: 45px;
+    }
+
     .process-card-list {
         flex-wrap: wrap;
     }
@@ -83,7 +102,6 @@
     .process-card p {
         font-size: 18px;
     }
-
 }
 
 @media(max-width:540px) {

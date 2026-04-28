@@ -183,20 +183,3 @@
 .process-card p {
     font-size: 20px;
 }
-
-/* career sec */
-.career-sec .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.career-text h2 {
-    margin-bottom: 20px;
-}
-
-.career-text p {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 80px;
-}

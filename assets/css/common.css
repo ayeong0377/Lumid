@@ -6,6 +6,7 @@ body {
     color: var(--Font-Color);
     font-family: 'Pretendard';
     position: relative;
+    overflow-x: hidden;
 }
 
 li {
@@ -297,19 +298,53 @@ button {
 
 .career-btn {
     display: block;
-    width: 228px;
-    font-size: 25px;
+    width: 190px;
+    font-size: 20px;
     font-weight: bold;
     border: 1px solid var(--Secondary-color);
     border-radius: 100px;
-    padding: 18px 20px;
+    padding: 15px 20px;
     color: var(--Secondary-color);
+    text-align: center;
 }
 
 .career-btn:hover {
     color: var(--white-color);
     background-color: var(--main-color);
     border-color: var(--main-color);
+}
+
+/* carrer */
+.career-sec .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    overflow-x: hidden;
+}
+
+.career-text {
+    width: 50%;
+}
+
+.career-text h2 {
+    margin-bottom: 20px;
+}
+
+.career-text p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.career-img {
+    width: 50%;
+}
+
+.career-img img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
 }
 
 /* footer */
@@ -352,6 +387,29 @@ button {
 
 
 /* breakpoint */
+@media(max-width:1280px) {
+    /* career */
+    .career-text h2 {
+        font-size: 45px;
+    }
+}
+
+@media(max-width:1024px) {
+    /* career */
+    .career-sec .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .career-text {
+        width: 100%;
+    }
+
+    .career-img {
+        width: 100%;
+    }
+}
+
 @media(max-width:768px) {
     /* header */
     .header-pc {
@@ -370,11 +428,38 @@ button {
     .header-popup {
         top: 18%;
     }
+
+    /* career */
+    .career-text h2 {
+        font-size: 35px;
+    }
+
+    .career-text p {
+        margin-bottom: 50px;
+    }
 }
 
 @media(max-width:540px){
     .pc-none {
         display: block;
+    }
+
+    /* career */
+    .career-sec .container {
+        gap: 20px;
+    }
+
+    .career-text h2 {
+        font-size: 30px;
+    }
+
+    .career-text p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .career-btn {
+        font-size: 18px;
     }
 
     /* footer */
