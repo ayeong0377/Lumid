@@ -228,9 +228,13 @@ button {
 .menu-list-mo li {
     font-weight: bold;
     font-size: 25px;
-    display: block;
 }
 
+.menu-list-mo .menu {
+    display: inline-block;
+}
+
+/* popup */
 .header-popup {
     width: 400px;
     height: 200px;
@@ -251,6 +255,7 @@ button {
 .notice-wrap {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 15px;
     border-bottom: 1px solid var(--gray-color);
     padding-top: 25px;
@@ -424,11 +429,6 @@ button {
         padding: 80px 16px;
     }
 
-    /* popup */
-    .header-popup {
-        top: 18%;
-    }
-
     /* career */
     .career-text h2 {
         font-size: 35px;
@@ -442,6 +442,20 @@ button {
 @media(max-width:540px){
     .pc-none {
         display: block;
+    }
+
+    /* popup */
+    .header-popup {
+        width: 300px;
+        height: 180px;
+    }
+
+    .notice-wrap p {
+        font-size: 20px;
+    }
+
+    .header-popup > p {
+        font-size: 15px;
     }
 
     /* career */
@@ -478,6 +492,13 @@ button {
 }
 
 @media(max-width:414px){
+    /* popup */
+    .header-popup {
+        width: 100%;
+        max-width: 250px;
+        height: 180px;
+    }
+
     .move-btn {
         padding: 10px 20px;
     }
