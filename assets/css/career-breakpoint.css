@@ -177,11 +177,20 @@
 
     .benefit-card {
         padding: 30px 10px;
+        width: 100%;
+    }
+
+    .mo-hide {
+        display: none;
     }
 
     .benefit-card img {
         width: 60px;
         height: 60px;
+    }
+
+    .benefit-card-text {
+        margin-top: 10px;
     }
 
     .benefit-card-text h3 {
@@ -190,6 +199,10 @@
 
     .benefit-card-text p {
         font-size: 15px;
+    }
+
+    .benefit-btn-wrap {
+        display: flex;
     }
 }
 

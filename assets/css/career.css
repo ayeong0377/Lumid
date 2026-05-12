@@ -183,3 +183,14 @@
 .benefit-card-text p {
     font-size: 20px;
 }
+
+.benefit-btn-wrap {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.more-btn.active svg{
+    transform: rotate(180deg);
+}

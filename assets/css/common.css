@@ -134,6 +134,7 @@ button {
     padding: 15px 30px 15px 14px;
     border-radius: 10px;
     overflow: visible;
+    box-shadow: 0 2px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
 .trans-option li a{
@@ -319,6 +320,19 @@ button {
     border-color: var(--main-color);
 }
 
+.more-btn {
+    max-width: 219px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: var(--Secondary-color);
+    padding: 20px;
+    color: var(--white-color);
+    border-radius: 15px;
+}
+
 /* carrer */
 .career-sec .container {
     display: flex;
@@ -456,6 +470,14 @@ button {
 
     .header-popup > p {
         font-size: 15px;
+    }
+
+    /* btn */
+    .more-btn {
+        max-width: 150px;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 10px;
     }
 
     /* career */
