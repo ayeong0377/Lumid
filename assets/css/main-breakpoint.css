@@ -26,19 +26,6 @@
     .studio-info {
         gap: 50px;
     }
-
-    /* carrer sec */
-    .carrer-text h2 {
-        font-size: 60px;
-    }
-
-    .carrer-text p {
-        font-size: 20px;
-    }
-
-    .career-btn {
-        font-size: 20px;
-    }
 }
 
 @media(max-width: 1024px){
@@ -85,25 +72,6 @@
 
     .news-sub-text h3 {
         font-size: 20px;
-    }
-
-    /* carrer */
-    /* .career-sec img {
-        object-position: 70% center;
-    } */
-
-    .carrer-text h2 {
-        font-size: 50px;
-    }
-
-    .career-btn {
-        font-size: 18px;
-        width: 20%;
-    }
-
-    .career-btn svg {
-        width: 15px;
-        height: 15px;
     }
 }
 
@@ -159,26 +127,10 @@
     .studio-info-img {
         width: 100%;
     }
-
-    /* carrer */
-    /* .career-sec img {
-        object-position: 75% center;
-    } */
-
-    .career-btn {
-        width: 30%;
-    }
 }
 
 @media(max-width: 540px){
-    /* carrer */
-    /* .career-sec img {
-        object-position: 75% center;
-    } */
-    
-    .career-btn {
-        width: 40%;
-    }
+
 }
 
 @media(max-width: 414px){
@@ -274,27 +226,5 @@
     .news-sub-text h3 {
         font-size: 18px;
         padding: 0px 20px 40px;
-    }
-
-    /* carrer sec */
-    /* .career-sec img {
-        object-position: 72% center;
-    } */
-
-    .carrer-text h2 {
-        font-size: 45px;
-    }
-
-    .carrer-text p {
-        font-size: 18px;
-    }
-
-    .career-btn {
-        width: 45%;
-    }
-
-    .career-btn svg {
-        width: 12px;
-        height: 12px;
     }
 }
