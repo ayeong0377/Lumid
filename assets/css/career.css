@@ -194,3 +194,64 @@
 .more-btn.active svg{
     transform: rotate(180deg);
 }
+
+/* work */
+.work-container > h2 {
+    text-align: center;
+}
+
+.work-tab {
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    gap: 16px;
+    font-size: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-tab li a {
+    width: 220px;
+    padding: 20px 10px;
+    display: block;
+    text-align: center;
+    border-top: 1px solid rgba(134, 139, 195, 0.8);
+    border-bottom: 1px solid rgba(134, 139, 195, 0.8);
+    color: rgba(134, 139, 195, 0.8);
+}
+
+.work-tab .work-on a {
+    color: var(--white-color);
+    background-color: var(--Secondary-color);
+    font-weight: bold;
+}
+
+.work-list-wrap {
+    padding: 0 118px;
+}
+
+.work-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.work-title {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.work-title02 {
+    margin-top: 50px;
+}
+
+.work {
+    list-style: disc;
+    font-size: 20px;
+    margin-left: 20px;
+}
