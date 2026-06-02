@@ -14,4 +14,13 @@ $(function(){
             $btn.find('span').text('접기');
         }
     })
+
+    $('.work-tab li').on('click', function(){
+        $('.work-tab li').removeClass('work-on');
+        $(this).addClass('work-on');
+
+        let idx = $(this).index();
+        $('.work-list-wrap > div').hide();
+        $('.work-list-wrap > div').eq(idx).show();
+    })
 })

@@ -60,6 +60,11 @@
     .benefit-card-text h3 {
         font-size: 30px;
     }
+
+    /* work */
+    .work-list-wrap {
+        padding: 0 38px;
+    }
 }
 
 @media(max-width:1024px) {
@@ -86,6 +91,19 @@
 
     .benefit-card {
         width: calc((100% - 16px) / 2);
+    }
+
+    /* work sec */
+    .work-container > h2 {
+        font-size: 45px;
+    }
+
+    .work-tab li a {
+        width: 180px;
+    }
+
+    .work-list-wrap {
+        padding: 0;
     }
 
 }
