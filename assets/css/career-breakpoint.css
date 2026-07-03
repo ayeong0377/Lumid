@@ -98,8 +98,12 @@
         font-size: 45px;
     }
 
-    .work-tab li a {
-        width: 180px;
+    .work-tab {
+        justify-content: left;
+    }
+
+    .work-tab li {
+        width: calc((100% - 32px) / 3);
     }
 
     .work-list-wrap {
@@ -160,6 +164,24 @@
     }
 
     .benefit-card-text p {
+        font-size: 18px;
+    }
+
+    /* work */
+    .work-container > h2 {
+        font-size: 35px;
+    }
+
+    .work-tab {
+        padding: 50px 0;
+        font-size: 20px;
+    }
+
+    .work-title {
+        font-size: 20px;
+    }
+
+    .work {
         font-size: 18px;
     }
 }

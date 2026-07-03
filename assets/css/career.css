@@ -201,7 +201,7 @@
 }
 
 .work-tab {
-    width: 100%;
+    /* width: 100%; */
     padding: 80px 0;
     display: flex;
     gap: 16px;
@@ -210,8 +210,12 @@
     flex-wrap: wrap;
 }
 
+.work-tab li {
+    width: calc((100% - 64px) / 5);
+}
+
 .work-tab li a {
-    width: 220px;
+    /* width: 220px; */
     padding: 20px 10px;
     display: block;
     text-align: center;
@@ -251,6 +255,7 @@
 }
 
 .work {
+    color: var(--gray-color);
     list-style: disc;
     font-size: 20px;
     margin-left: 20px;
