@@ -244,5 +244,38 @@
     .benefit-btn-wrap {
         display: flex;
     }
+
+    /* work */
+    .work-container > h2 {
+        font-size: 30px;
+    }
+
+    .work-title {
+        font-size: 18px;
+    }
+
+    .work-tab {
+        font-size: 18px;
+    }
+
+    .work-tab li {
+        min-height: 62px;
+    }
+
+    .work-tab li a {
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .work {
+        font-size: 15px;
+    }
 }
 
