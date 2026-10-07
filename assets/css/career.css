@@ -264,3 +264,20 @@
 .work-list-none {
     display: none;
 }
+
+/* wait */
+.wait-sec {
+    padding-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wait {
+    text-align: center;
+    background-color: var(--Tertiary-color);
+    border-radius: 20px;
+}
+
+.wait p {
+    font-size: 25px;
+}

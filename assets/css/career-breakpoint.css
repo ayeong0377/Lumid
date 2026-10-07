@@ -184,6 +184,16 @@
     .work {
         font-size: 18px;
     }
+
+    /* wait */
+    .wait-sec {
+        padding-bottom: 80px;
+    }
+
+    .wait p {
+        font-size: 20px;
+    }
+
 }
 
 @media(max-width:540px) {
@@ -276,6 +286,11 @@
 
     .work {
         font-size: 15px;
+    }
+
+    /* wait */
+    .wait p {
+        font-size: 18px;
     }
 }
 
