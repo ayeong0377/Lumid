@@ -1,8 +1,4 @@
 @media(max-width: 1280px){
-    .kv-title {
-        font-size: 60px;
-    }
-
     .news-sec h2 {
         font-size: 40px;
     }
@@ -19,10 +15,6 @@
 }
 
 @media(max-width: 768px){
-    .kv-title {
-        font-size: 50px;
-    }
-
     .news-sec h2 {
         margin-bottom: 50px;
         font-size: 35px;
@@ -70,14 +62,6 @@
 }
 
 @media(max-width: 540px){
-    .kv-title {
-        font-size: 36px;
-    }
-
-    .kv-sub {
-        font-size: 18px;
-    }
-
     .news-sec h2 {
         font-size: 30px;
     }
