@@ -129,11 +129,38 @@
     height: 100%;
 }
 
+/* no-result */
+.no-result-wrap {
+    width: 100%;
+    display: none;
+}
+
+.no-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.no-result-text {
+    font-size: 35px;
+    color: var(--gray-color);
+    padding-top: 70px;
+    text-align: center;
+}
+
+.no-result img {
+    width: 100%;
+    max-width: 220px;
+}
+
 /* game-more-wrap */
 .game-more-wrap {
     background-color: transparent;
     margin-top: 80px;
     text-align: center;
+    display: none;
 }
 
 .game-more-wrap button {

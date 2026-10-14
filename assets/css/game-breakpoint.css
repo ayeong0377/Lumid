@@ -12,6 +12,10 @@
         font-size: 40px;
     }
 
+    /* no-result */
+    .no-result-text {
+        font-size: 30px;
+    }
 }
 
 @media(max-width:1024px) {
@@ -28,6 +32,20 @@
         font-size: 20px;
     }
 
+    /* no-result */
+    .no-result {
+        gap: 80px;
+    }
+
+    .no-result-text {
+        padding-top: 0;
+    }
+
+    .no-result img {
+        max-width: 160px;
+    }    
+
+    /* game-more-wrap */
     .game-more-wrap button {
         font-size: 20px;
         max-height: 60px;
@@ -83,6 +101,16 @@
         border-radius: 5px;
     }
 
+    /* no-result */
+    .no-result-text {
+        padding-top: 30px;
+        font-size: 25px;
+    }
+
+    .no-result img {
+        max-width: 130px;
+    }
+
     /* game-more-wrap */
     .game-more-wrap {
         margin-top: 50px;
@@ -122,6 +150,15 @@
         border-radius: 5px;
     }
 
+    /* no-result */
+    .no-result-text {
+        padding-top: 30px;
+        font-size: 18px;
+    }
+
+    .no-result img {
+        max-width: 100px;
+    }
     /* game-more-wrap */
     .game-more-wrap button {
         font-size: 18px;
