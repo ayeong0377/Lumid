@@ -39,6 +39,8 @@ $(function(){
         } else {
             $('.game-more-wrap').hide();
         }
+
+        AOS.refresh();
     }
 
     // game-tab
@@ -69,4 +71,13 @@ $(function(){
 
     // 최초실행
     renderGames();
+
+    // no-notice
+    $('.game-more').on('click', function(){
+        $('.no-notice').show();
+    })
+
+    $('.no-notice-close').on('click', function(){
+        $('.no-notice').hide();
+    })
 })
